@@ -1,5 +1,4 @@
 const sumAll = function(num1, num2) {
-    if (!(typeof num2 === "number") || !(typeof num1 === "number")) return 'ERROR';
     if (!Number.isInteger(num1) || !Number.isInteger(num2)) return 'ERROR';
     if (num1 < 0 || num2 < 0) return 'ERROR';
 
